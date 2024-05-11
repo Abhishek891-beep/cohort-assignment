@@ -15,7 +15,7 @@ const zod = require('zod');
  *                        the password does not meet the length requirement.
  */
 
-console.log('  ')
+console.log(' me ')
 
 const emailSchema = zod.string().email();
 const passwordSchema = zod.string().min(6);
